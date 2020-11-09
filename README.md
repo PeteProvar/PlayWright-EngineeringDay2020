@@ -17,3 +17,7 @@ The tasks are:
 * `grabelement` - open a webpage and get a specific pice of content from a specific element
 * `fillform` - open a webpage, reject cookies, fill a form, take a screenshot, and close
 
+## Links
+
+The official API is here: https://github.com/microsoft/playwright/blob/master/docs/api.md
+Examples of Playwright in use are available here: https://github.com/nmanikiran/playwright-demos
