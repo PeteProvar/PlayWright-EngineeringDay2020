@@ -14,9 +14,6 @@ const { chromium } = require('playwright');
     '#gform_submit_button_11',
   );
 
-  // page.click('#gform_submit_button_11');
-  await page.waitForTimeout(1000);
-
   await page.waitForTimeout(1000);
   const rejectCookiesHandler = await page.$('.cookiebar__reject');
   const firstNameHandler = await page.$('#input_11_1');
