@@ -1,0 +1,19 @@
+{
+  "name": "PlaywrightTesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "openpage": "node tasks/openpage",
+    "getcontent": "node tasks/getcontent",
+    "grabelement": "node tasks/grabelement",
+    "fillform": "node tasks/fillform"
+  }
+}
